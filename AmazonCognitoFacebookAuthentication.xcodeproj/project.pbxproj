@@ -1,913 +1,489 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>3BA304048CD786E14A68BDBA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-AmazonCognitoFacebookAuthentication.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-AmazonCognitoFacebookAuthentication/Pods-AmazonCognitoFacebookAuthentication.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3D4BF04A8E6B2F8F6D9D4928</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-AmazonCognitoFacebookAuthentication.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>4A8E160545C3018803555D34</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3D4BF04A8E6B2F8F6D9D4928</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6344606C1A580F8F009442DD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>634460771A580F8F009442DD</string>
-				<string>6344608D1A580F8F009442DD</string>
-				<string>634460761A580F8F009442DD</string>
-				<string>C66828CA2CEA4EDFABD4F87B</string>
-				<string>6E2F8E27F419F98A1BBB52FB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6344606D1A580F8F009442DD</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0610</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Grzegorz Tatarzyn</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>634460741A580F8F009442DD</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>6.1.1</string>
-					</dict>
-					<key>634460891A580F8F009442DD</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>6.1.1</string>
-						<key>TestTargetID</key>
-						<string>634460741A580F8F009442DD</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>634460701A580F8F009442DD</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>6344606C1A580F8F009442DD</string>
-			<key>productRefGroup</key>
-			<string>634460761A580F8F009442DD</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>634460741A580F8F009442DD</string>
-				<string>634460891A580F8F009442DD</string>
-			</array>
-		</dict>
-		<key>634460701A580F8F009442DD</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>634460921A580F8F009442DD</string>
-				<string>634460931A580F8F009442DD</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>634460711A580F8F009442DD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>6344607D1A580F8F009442DD</string>
-				<string>6344607B1A580F8F009442DD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>634460721A580F8F009442DD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>4A8E160545C3018803555D34</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>634460731A580F8F009442DD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>634460801A580F8F009442DD</string>
-				<string>634460851A580F8F009442DD</string>
-				<string>634460821A580F8F009442DD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>634460741A580F8F009442DD</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>634460941A580F8F009442DD</string>
-			<key>buildPhases</key>
-			<array>
-				<string>BD100F254B115ED51A15A50A</string>
-				<string>634460711A580F8F009442DD</string>
-				<string>634460721A580F8F009442DD</string>
-				<string>634460731A580F8F009442DD</string>
-				<string>CE4115EA91F56FA2EEEC3C0F</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>AmazonCognitoFacebookAuthentication</string>
-			<key>productName</key>
-			<string>AmazonCognitoFacebookAuthentication</string>
-			<key>productReference</key>
-			<string>634460751A580F8F009442DD</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>634460751A580F8F009442DD</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>AmazonCognitoFacebookAuthentication.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>634460761A580F8F009442DD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>634460751A580F8F009442DD</string>
-				<string>6344608A1A580F8F009442DD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>634460771A580F8F009442DD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6344607A1A580F8F009442DD</string>
-				<string>6344607C1A580F8F009442DD</string>
-				<string>6344607E1A580F8F009442DD</string>
-				<string>634460811A580F8F009442DD</string>
-				<string>634460831A580F8F009442DD</string>
-				<string>634460781A580F8F009442DD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>AmazonCognitoFacebookAuthentication</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>634460781A580F8F009442DD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>634460791A580F8F009442DD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>634460791A580F8F009442DD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6344607A1A580F8F009442DD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>AppDelegate.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6344607B1A580F8F009442DD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6344607A1A580F8F009442DD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6344607C1A580F8F009442DD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>ViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6344607D1A580F8F009442DD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6344607C1A580F8F009442DD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6344607E1A580F8F009442DD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6344607F1A580F8F009442DD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6344607F1A580F8F009442DD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>634460801A580F8F009442DD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6344607E1A580F8F009442DD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>634460811A580F8F009442DD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>634460821A580F8F009442DD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>634460811A580F8F009442DD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>634460831A580F8F009442DD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>634460841A580F8F009442DD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>LaunchScreen.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>634460841A580F8F009442DD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/LaunchScreen.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>634460851A580F8F009442DD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>634460831A580F8F009442DD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>634460861A580F8F009442DD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>634460911A580F8F009442DD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>634460871A580F8F009442DD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>634460881A580F8F009442DD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>634460891A580F8F009442DD</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>634460971A580F8F009442DD</string>
-			<key>buildPhases</key>
-			<array>
-				<string>634460861A580F8F009442DD</string>
-				<string>634460871A580F8F009442DD</string>
-				<string>634460881A580F8F009442DD</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>6344608C1A580F8F009442DD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>AmazonCognitoFacebookAuthenticationTests</string>
-			<key>productName</key>
-			<string>AmazonCognitoFacebookAuthenticationTests</string>
-			<key>productReference</key>
-			<string>6344608A1A580F8F009442DD</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>6344608A1A580F8F009442DD</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>AmazonCognitoFacebookAuthenticationTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>6344608B1A580F8F009442DD</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>6344606D1A580F8F009442DD</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>634460741A580F8F009442DD</string>
-			<key>remoteInfo</key>
-			<string>AmazonCognitoFacebookAuthentication</string>
-		</dict>
-		<key>6344608C1A580F8F009442DD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>634460741A580F8F009442DD</string>
-			<key>targetProxy</key>
-			<string>6344608B1A580F8F009442DD</string>
-		</dict>
-		<key>6344608D1A580F8F009442DD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>634460901A580F8F009442DD</string>
-				<string>6344608E1A580F8F009442DD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>AmazonCognitoFacebookAuthenticationTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6344608E1A580F8F009442DD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6344608F1A580F8F009442DD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6344608F1A580F8F009442DD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>634460901A580F8F009442DD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>AmazonCognitoFacebookAuthenticationTests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>634460911A580F8F009442DD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>634460901A580F8F009442DD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>634460921A580F8F009442DD</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>634460931A580F8F009442DD</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>634460941A580F8F009442DD</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>634460951A580F8F009442DD</string>
-				<string>634460961A580F8F009442DD</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>634460951A580F8F009442DD</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>3BA304048CD786E14A68BDBA</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>INFOPLIST_FILE</key>
-				<string>AmazonCognitoFacebookAuthentication/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>634460961A580F8F009442DD</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>A8CE027ABC23E8D8E7527641</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>INFOPLIST_FILE</key>
-				<string>AmazonCognitoFacebookAuthentication/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>634460971A580F8F009442DD</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>634460981A580F8F009442DD</string>
-				<string>634460991A580F8F009442DD</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>634460981A580F8F009442DD</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>AmazonCognitoFacebookAuthenticationTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/AmazonCognitoFacebookAuthentication.app/AmazonCognitoFacebookAuthentication</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>634460991A580F8F009442DD</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>AmazonCognitoFacebookAuthenticationTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/AmazonCognitoFacebookAuthentication.app/AmazonCognitoFacebookAuthentication</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>6E2F8E27F419F98A1BBB52FB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3D4BF04A8E6B2F8F6D9D4928</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A8CE027ABC23E8D8E7527641</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-AmazonCognitoFacebookAuthentication.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-AmazonCognitoFacebookAuthentication/Pods-AmazonCognitoFacebookAuthentication.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BD100F254B115ED51A15A50A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>C66828CA2CEA4EDFABD4F87B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3BA304048CD786E14A68BDBA</string>
-				<string>A8CE027ABC23E8D8E7527641</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CE4115EA91F56FA2EEEC3C0F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-AmazonCognitoFacebookAuthentication/Pods-AmazonCognitoFacebookAuthentication-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>6344606D1A580F8F009442DD</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A8E160545C3018803555D34 /* libPods-AmazonCognitoFacebookAuthentication.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D4BF04A8E6B2F8F6D9D4928 /* libPods-AmazonCognitoFacebookAuthentication.a */; };
+		6344607B1A580F8F009442DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6344607A1A580F8F009442DD /* AppDelegate.swift */; };
+		6344607D1A580F8F009442DD /* FBLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6344607C1A580F8F009442DD /* FBLoginViewController.swift */; };
+		634460801A580F8F009442DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6344607E1A580F8F009442DD /* Main.storyboard */; };
+		634460821A580F8F009442DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 634460811A580F8F009442DD /* Images.xcassets */; };
+		634460851A580F8F009442DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 634460831A580F8F009442DD /* LaunchScreen.xib */; };
+		634460911A580F8F009442DD /* AmazonCognitoFacebookAuthenticationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634460901A580F8F009442DD /* AmazonCognitoFacebookAuthenticationTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6344608B1A580F8F009442DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6344606D1A580F8F009442DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 634460741A580F8F009442DD;
+			remoteInfo = AmazonCognitoFacebookAuthentication;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BA304048CD786E14A68BDBA /* Pods-AmazonCognitoFacebookAuthentication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmazonCognitoFacebookAuthentication.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AmazonCognitoFacebookAuthentication/Pods-AmazonCognitoFacebookAuthentication.debug.xcconfig"; sourceTree = "<group>"; };
+		3D4BF04A8E6B2F8F6D9D4928 /* libPods-AmazonCognitoFacebookAuthentication.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AmazonCognitoFacebookAuthentication.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		634460751A580F8F009442DD /* AmazonCognitoFacebookAuthentication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmazonCognitoFacebookAuthentication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		634460791A580F8F009442DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6344607A1A580F8F009442DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6344607C1A580F8F009442DD /* FBLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBLoginViewController.swift; sourceTree = "<group>"; };
+		6344607F1A580F8F009442DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		634460811A580F8F009442DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		634460841A580F8F009442DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6344608A1A580F8F009442DD /* AmazonCognitoFacebookAuthenticationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmazonCognitoFacebookAuthenticationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6344608F1A580F8F009442DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		634460901A580F8F009442DD /* AmazonCognitoFacebookAuthenticationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmazonCognitoFacebookAuthenticationTests.swift; sourceTree = "<group>"; };
+		6344609A1A581DEC009442DD /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		A8CE027ABC23E8D8E7527641 /* Pods-AmazonCognitoFacebookAuthentication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmazonCognitoFacebookAuthentication.release.xcconfig"; path = "Pods/Target Support Files/Pods-AmazonCognitoFacebookAuthentication/Pods-AmazonCognitoFacebookAuthentication.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		634460721A580F8F009442DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A8E160545C3018803555D34 /* libPods-AmazonCognitoFacebookAuthentication.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		634460871A580F8F009442DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6344606C1A580F8F009442DD = {
+			isa = PBXGroup;
+			children = (
+				634460771A580F8F009442DD /* AmazonCognitoFacebookAuthentication */,
+				6344608D1A580F8F009442DD /* AmazonCognitoFacebookAuthenticationTests */,
+				634460761A580F8F009442DD /* Products */,
+				C66828CA2CEA4EDFABD4F87B /* Pods */,
+				6E2F8E27F419F98A1BBB52FB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		634460761A580F8F009442DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				634460751A580F8F009442DD /* AmazonCognitoFacebookAuthentication.app */,
+				6344608A1A580F8F009442DD /* AmazonCognitoFacebookAuthenticationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		634460771A580F8F009442DD /* AmazonCognitoFacebookAuthentication */ = {
+			isa = PBXGroup;
+			children = (
+				6344609A1A581DEC009442DD /* Bridging-Header.h */,
+				6344607A1A580F8F009442DD /* AppDelegate.swift */,
+				6344607C1A580F8F009442DD /* FBLoginViewController.swift */,
+				6344607E1A580F8F009442DD /* Main.storyboard */,
+				634460811A580F8F009442DD /* Images.xcassets */,
+				634460831A580F8F009442DD /* LaunchScreen.xib */,
+				634460781A580F8F009442DD /* Supporting Files */,
+			);
+			path = AmazonCognitoFacebookAuthentication;
+			sourceTree = "<group>";
+		};
+		634460781A580F8F009442DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				634460791A580F8F009442DD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6344608D1A580F8F009442DD /* AmazonCognitoFacebookAuthenticationTests */ = {
+			isa = PBXGroup;
+			children = (
+				634460901A580F8F009442DD /* AmazonCognitoFacebookAuthenticationTests.swift */,
+				6344608E1A580F8F009442DD /* Supporting Files */,
+			);
+			path = AmazonCognitoFacebookAuthenticationTests;
+			sourceTree = "<group>";
+		};
+		6344608E1A580F8F009442DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6344608F1A580F8F009442DD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E2F8E27F419F98A1BBB52FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D4BF04A8E6B2F8F6D9D4928 /* libPods-AmazonCognitoFacebookAuthentication.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C66828CA2CEA4EDFABD4F87B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BA304048CD786E14A68BDBA /* Pods-AmazonCognitoFacebookAuthentication.debug.xcconfig */,
+				A8CE027ABC23E8D8E7527641 /* Pods-AmazonCognitoFacebookAuthentication.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		634460741A580F8F009442DD /* AmazonCognitoFacebookAuthentication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 634460941A580F8F009442DD /* Build configuration list for PBXNativeTarget "AmazonCognitoFacebookAuthentication" */;
+			buildPhases = (
+				BD100F254B115ED51A15A50A /* Check Pods Manifest.lock */,
+				634460711A580F8F009442DD /* Sources */,
+				634460721A580F8F009442DD /* Frameworks */,
+				634460731A580F8F009442DD /* Resources */,
+				CE4115EA91F56FA2EEEC3C0F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmazonCognitoFacebookAuthentication;
+			productName = AmazonCognitoFacebookAuthentication;
+			productReference = 634460751A580F8F009442DD /* AmazonCognitoFacebookAuthentication.app */;
+			productType = "com.apple.product-type.application";
+		};
+		634460891A580F8F009442DD /* AmazonCognitoFacebookAuthenticationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 634460971A580F8F009442DD /* Build configuration list for PBXNativeTarget "AmazonCognitoFacebookAuthenticationTests" */;
+			buildPhases = (
+				634460861A580F8F009442DD /* Sources */,
+				634460871A580F8F009442DD /* Frameworks */,
+				634460881A580F8F009442DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6344608C1A580F8F009442DD /* PBXTargetDependency */,
+			);
+			name = AmazonCognitoFacebookAuthenticationTests;
+			productName = AmazonCognitoFacebookAuthenticationTests;
+			productReference = 6344608A1A580F8F009442DD /* AmazonCognitoFacebookAuthenticationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6344606D1A580F8F009442DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Grzegorz Tatarzyn";
+				TargetAttributes = {
+					634460741A580F8F009442DD = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					634460891A580F8F009442DD = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 634460741A580F8F009442DD;
+					};
+				};
+			};
+			buildConfigurationList = 634460701A580F8F009442DD /* Build configuration list for PBXProject "AmazonCognitoFacebookAuthentication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6344606C1A580F8F009442DD;
+			productRefGroup = 634460761A580F8F009442DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				634460741A580F8F009442DD /* AmazonCognitoFacebookAuthentication */,
+				634460891A580F8F009442DD /* AmazonCognitoFacebookAuthenticationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		634460731A580F8F009442DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				634460801A580F8F009442DD /* Main.storyboard in Resources */,
+				634460851A580F8F009442DD /* LaunchScreen.xib in Resources */,
+				634460821A580F8F009442DD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		634460881A580F8F009442DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BD100F254B115ED51A15A50A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CE4115EA91F56FA2EEEC3C0F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AmazonCognitoFacebookAuthentication/Pods-AmazonCognitoFacebookAuthentication-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		634460711A580F8F009442DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6344607D1A580F8F009442DD /* FBLoginViewController.swift in Sources */,
+				6344607B1A580F8F009442DD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		634460861A580F8F009442DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				634460911A580F8F009442DD /* AmazonCognitoFacebookAuthenticationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6344608C1A580F8F009442DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 634460741A580F8F009442DD /* AmazonCognitoFacebookAuthentication */;
+			targetProxy = 6344608B1A580F8F009442DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6344607E1A580F8F009442DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6344607F1A580F8F009442DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		634460831A580F8F009442DD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				634460841A580F8F009442DD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		634460921A580F8F009442DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		634460931A580F8F009442DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		634460951A580F8F009442DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BA304048CD786E14A68BDBA /* Pods-AmazonCognitoFacebookAuthentication.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AmazonCognitoFacebookAuthentication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AmazonCognitoFacebookAuthentication/Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		634460961A580F8F009442DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8CE027ABC23E8D8E7527641 /* Pods-AmazonCognitoFacebookAuthentication.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AmazonCognitoFacebookAuthentication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AmazonCognitoFacebookAuthentication/Bridging-Header.h";
+			};
+			name = Release;
+		};
+		634460981A580F8F009442DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AmazonCognitoFacebookAuthenticationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmazonCognitoFacebookAuthentication.app/AmazonCognitoFacebookAuthentication";
+			};
+			name = Debug;
+		};
+		634460991A580F8F009442DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AmazonCognitoFacebookAuthenticationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmazonCognitoFacebookAuthentication.app/AmazonCognitoFacebookAuthentication";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		634460701A580F8F009442DD /* Build configuration list for PBXProject "AmazonCognitoFacebookAuthentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				634460921A580F8F009442DD /* Debug */,
+				634460931A580F8F009442DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		634460941A580F8F009442DD /* Build configuration list for PBXNativeTarget "AmazonCognitoFacebookAuthentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				634460951A580F8F009442DD /* Debug */,
+				634460961A580F8F009442DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		634460971A580F8F009442DD /* Build configuration list for PBXNativeTarget "AmazonCognitoFacebookAuthenticationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				634460981A580F8F009442DD /* Debug */,
+				634460991A580F8F009442DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6344606D1A580F8F009442DD /* Project object */;
+}

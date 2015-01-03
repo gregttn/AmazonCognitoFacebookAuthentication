@@ -8,18 +8,24 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class FBLoginViewController: UIViewController, FBLoginViewDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let fbLogin: FBLoginView = FBLoginView()
+        fbLogin.delegate = self
+        fbLogin.center = view.center
+        
+        view.addSubview(fbLogin)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-
-
+    
+    func loginViewFetchedUserInfo(loginView: FBLoginView!, user: FBGraphUser!) {
+        println("\(user)")
+    }
 }
 

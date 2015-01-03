@@ -14,6 +14,7 @@
 		634460821A580F8F009442DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 634460811A580F8F009442DD /* Images.xcassets */; };
 		634460851A580F8F009442DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 634460831A580F8F009442DD /* LaunchScreen.xib */; };
 		634460911A580F8F009442DD /* AmazonCognitoFacebookAuthenticationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634460901A580F8F009442DD /* AmazonCognitoFacebookAuthenticationTests.swift */; };
+		6344609E1A58450A009442DD /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6344609D1A58450A009442DD /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		6344608F1A580F8F009442DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		634460901A580F8F009442DD /* AmazonCognitoFacebookAuthenticationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmazonCognitoFacebookAuthenticationTests.swift; sourceTree = "<group>"; };
 		6344609A1A581DEC009442DD /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		6344609D1A58450A009442DD /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		A8CE027ABC23E8D8E7527641 /* Pods-AmazonCognitoFacebookAuthentication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmazonCognitoFacebookAuthentication.release.xcconfig"; path = "Pods/Target Support Files/Pods-AmazonCognitoFacebookAuthentication/Pods-AmazonCognitoFacebookAuthentication.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,6 +94,7 @@
 				634460811A580F8F009442DD /* Images.xcassets */,
 				634460831A580F8F009442DD /* LaunchScreen.xib */,
 				634460781A580F8F009442DD /* Supporting Files */,
+				6344609D1A58450A009442DD /* DetailsViewController.swift */,
 			);
 			path = AmazonCognitoFacebookAuthentication;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 			files = (
 				6344607D1A580F8F009442DD /* FBLoginViewController.swift in Sources */,
 				6344607B1A580F8F009442DD /* AppDelegate.swift in Sources */,
+				6344609E1A58450A009442DD /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,7 +9,10 @@
 import UIKit
 
 class FBLoginViewController: UIViewController, FBLoginViewDelegate {
-
+    let displayDetialSegueId = "displayDetails"
+    
+    @IBOutlet weak var showDetailsButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -19,13 +22,26 @@ class FBLoginViewController: UIViewController, FBLoginViewDelegate {
         
         view.addSubview(fbLogin)
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
     
-    func loginViewFetchedUserInfo(loginView: FBLoginView!, user: FBGraphUser!) {
-        println("\(user)")
+    func loginViewShowingLoggedInUser(loginView: FBLoginView!) {
+        showDetailsButton.enabled = true
+        presentDetailsController()
+    }
+    
+    func loginViewShowingLoggedOutUser(loginView: FBLoginView!) {
+        showDetailsButton.enabled = false
+    }
+    
+    @IBAction func showDetailButtonClicked(sender: AnyObject) {
+        presentDetailsController();
+    }
+    
+    private func presentDetailsController() {
+        performSegueWithIdentifier(displayDetialSegueId, sender: self)
     }
 }
 
